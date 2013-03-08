@@ -1,0 +1,44 @@
+#body {
+  color: #c5cbca; 
+    background: #002240;
+	font: 16px 'Ubuntu Mono', sans-serif;
+}
+
+#content {
+    padding: 64px;
+}
+
+#block-header {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 9px;
+}
+
+#spiral-obj-container {
+    color: #83b8b3;
+    margin-left: 24px;
+    border: 1px solid #eee;
+    padding: 12px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px #FFFFFF;
+    background: #002240;
+}
+
+#model {
+    background: #002240;
+    border: 5px solid #FE9811;
+    border-radius: 20px 20px 20px 20px;
+    color: #FE9811;
+    margin: 12px 0;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+#submit {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	
+}

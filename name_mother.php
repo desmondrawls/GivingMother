@@ -1,8 +1,8 @@
 <?php
 if (isset($_POST('name')) && isset($_POST('mother')))
 {
-  $name=$_POST('name');
-	$mother=$_POST('mother');
+        $name=json_encode($_POST('name'));
+	$mother=json_encode($_POST('mother'));
 	echo <<<_END
 	
 	<script> //previously tested in an html doc
@@ -21,7 +21,7 @@ if (isset($_POST('name')) && isset($_POST('mother')))
 	document.write(storyNameMother);
 	}
 
-	var person=new User ("$name", "$mother");
+	var person=new User ($name, $mother);
 
 	person.swap();
 	</script>
